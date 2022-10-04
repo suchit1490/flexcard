@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Flex Example</title>
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css"
+    />
+    <style>
+      .card {
+        width: 200px;
+        border: 2px solid violet;
+        padding: 20px;
+        margin: 10px;
+        box-shadow: 2px 2px 3px violet;
+        text-align: center;
+      }
+      .card-header {
+        background-color: rgba(232, 129, 232, 0.715);
+        text-align: center;
+        box-shadow: 2px 2px 3px violet;
+      }
+      .card-body {
+        text-align: center;
+      }
+      button {
+        width: 100%;
+        font-size: 20px;
+        padding: 5px;
+        background-color: rgba(232, 129, 232, 0.715);
+        border: none;
+      }
+      .card-deck {
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: row;
+        justify-content: space-evenly;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="card-deck">
+      <!-- card 1 -->
+
+      <div class="card">
+        <div class="card-header">
+          <h2>Nike Casuals</h2>
+        </div>
+        <div class="card-body">
+          <img src="/shoe.jpg" width="200" height="200" />
+          <p>Price : 5600.55</p>
+        </div>
+        <div class="card-footer">
+          <button>
+            <span class="bi bi-cart4"> Add To Cart</span>
+          </button>
+        </div>
+      </div>
+
+      <!-- card 2 -->
+
+      <div class="card">
+        <div class="card-header">
+          <h2>Shirt</h2>
+        </div>
+        <div class="card-body">
+          <img src="/shirt.jpg" width="200" height="200" />
+          <p>Price : 1500.55</p>
+        </div>
+        <div class="card-footer">
+          <button>
+            <span class="bi bi-cart4"> Add To Cart</span>
+          </button>
+        </div>
+      </div>
+
+      <!-- card 3 -->
+
+      <div class="card">
+        <div class="card-header">
+          <h2>Oppo</h2>
+        </div>
+        <div class="card-body">
+          <img src="/oppo.png" width="200" height="200" />
+          <p>Price : 11055</p>
+        </div>
+        <div class="card-footer">
+          <button>
+            <span class="bi bi-cart4"> Add To Cart</span>
+          </button>
+        </div>
+      </div>
+
+      <!-- card 4 -->
+
+      <div class="card">
+        <div class="card-header">
+          <h2>Vivo</h2>
+        </div>
+        <div class="card-body">
+          <img src="/vivo.png" width="200" height="200" />
+          <p>Price : 12009</p>
+        </div>
+        <div class="card-footer">
+          <button>
+            <span class="bi bi-cart4"> Add To Cart</span>
+          </button>
+        </div>
+      </div>
+      <!-- card 1 -->
+
+      <div class="card">
+        <div class="card-header">
+          <h2>Nike Casuals</h2>
+        </div>
+        <div class="card-body">
+          <img src="/shoe.jpg" width="200" height="200" />
+          <p>Price : 5600.55</p>
+        </div>
+        <div class="card-footer">
+          <button>
+            <span class="bi bi-cart4"> Add To Cart</span>
+          </button>
+        </div>
+      </div>
+
+      <!-- card 2 -->
+
+      <div class="card">
+        <div class="card-header">
+          <h2>Shirt</h2>
+        </div>
+        <div class="card-body">
+          <img src="/shirt.jpg" width="200" height="200" />
+          <p>Price : 1500.55</p>
+        </div>
+        <div class="card-footer">
+          <button>
+            <span class="bi bi-cart4"> Add To Cart</span>
+          </button>
+        </div>
+      </div>
+
+      <!-- card 3 -->
+
+      <div class="card">
+        <div class="card-header">
+          <h2>Oppo</h2>
+        </div>
+        <div class="card-body">
+          <img src="/oppo.png" width="200" height="200" />
+          <p>Price : 11055</p>
+        </div>
+        <div class="card-footer">
+          <button>
+            <span class="bi bi-cart4"> Add To Cart</span>
+          </button>
+        </div>
+      </div>
+
+      <!-- card 4 -->
+
+      <div class="card">
+        <div class="card-header">
+          <h2>Vivo</h2>
+        </div>
+        <div class="card-body">
+          <img src="/vivo.png" width="200" height="200" />
+          <p>Price : 12009</p>
+        </div>
+        <div class="card-footer">
+          <button>
+            <span class="bi bi-cart4"> Add To Cart</span>
+          </button>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
